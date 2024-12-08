@@ -5,10 +5,14 @@ import { HomeComponent } from '~/app/home/home.component';
 export const routes: Routes = [
   {
     path : '',
-    component: HomeComponent,
+    component: HomeComponent
   },
   {
     path : 'landing',
-    component: LandingPageComponent,
+    component: LandingPageComponent
+  },
+  {
+    path : "**",
+    component: HomeComponent
   }
 ];
