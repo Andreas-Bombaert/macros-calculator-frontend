@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { LandingPageComponent } from '~/app/landing-page/landing-page.component';
+import { LoginComponent } from '~/app/login/login.component';
 import { HomeComponent } from '~/app/home/home.component';
 
 export const routes: Routes = [
@@ -8,8 +8,8 @@ export const routes: Routes = [
     component: HomeComponent
   },
   {
-    path : 'landing',
-    component: LandingPageComponent
+    path : 'login' ,
+    component: LoginComponent
   },
   {
     path : "**",

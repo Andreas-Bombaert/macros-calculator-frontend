@@ -2,14 +2,14 @@ import { Component } from '@angular/core';
 import { PrimengModule} from '~/app/primeng/primeng.module';
 
 @Component({
-  selector: 'app-landing-page',
+  selector: 'app-login',
   standalone: true,
   imports: [
     PrimengModule,
   ],
-  templateUrl: './landing-page.component.html',
-  styleUrl: './landing-page.component.scss'
+  templateUrl: './login-component.html',
+  styleUrl: './login.component.scss'
 })
-export class LandingPageComponent {
+export class LoginComponent {
 
 }
