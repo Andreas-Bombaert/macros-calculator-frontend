@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
+  cursor: pointer;
+  padding: 1rem;
+  align-items: center;
+}
+
+.active-link {
+  text-decoration: underline;
+}
